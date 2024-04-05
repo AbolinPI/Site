@@ -1,0 +1,113 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background: radial-gradient(circle, rgb(160,160,200) 0%, rgb(80,80,100) 100%);
+}
+
+header
+{
+	width:auto;
+	min-height:10vh;
+	display:block;
+	padding: 1rem 2rem;
+
+	background-color:rgb(50,50,200);
+	background: linear-gradient(90deg, rgba(50,50,200,1) 0%, rgba(42,42,88,1) 15%, rgba(50,50,200,1) 100%); 
+	color:white;
+	border-bottom:outset 4px black;
+}
+header .container
+{
+	display:flex;
+}
+header .container .logo
+{
+	background: radial-gradient(circle, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%);
+	background-color:white;
+	color:rgb(50,50,200);
+	font-size:48px;
+	padding:8px;
+	border-radius:100%;
+	font-weight:bold;
+}
+header .container .name
+{
+	margin:auto auto auto 16px;
+	font-size:32px;
+	font-weight:bold;
+}
+header .container .menu
+{
+	display:flex;
+	width:50%;
+	margin:auto;
+}
+header .container .menu .menu-item
+{
+	margin:auto 4px auto 0;
+	height:100%;
+	padding:16px;
+	background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+	border:2px rgba(255,255,255,0.3) solid;
+	border-left:8px rgba(255,255,255,0.3) solid;
+	transition: 0.1s;
+	font:inherit;
+	color:white;
+	text-decoration:none;
+}
+header .container .menu .menu-item:hover
+{
+	scale:1.1;
+	transition: 0.1s;
+	margin: auto 16px auto 8px;
+}
+
+main
+{
+	min-height:85vh;
+}
+main .scroll-line
+{
+	width:70%;
+	margin:1rem auto;
+}
+main .scroll-line .article
+{
+	margin:1rem 0;
+	background-color: rgba(255,255,255,0.5);
+	border:8px outset black;
+	padding: 1rem;
+}
+main .scroll-line .article p
+{
+	margin: 1rem;
+	
+}
+main .scroll-line .article p img
+{
+	float:left;
+	max-width:50%;
+	height:100%;
+	margin:0.5rem;
+	border:inset 8px black;
+}
+main .scroll-line .article h1
+{
+	text-align:center;
+}
+
+footer
+{
+	min-height:5vh;
+	padding:1rem;
+	background-color:rgb(50,50,100);
+	background: linear-gradient(90deg, rgba(50,50,100,1) 0%, rgba(21,21,44,1) 15%, rgba(50,50,100,1) 100%); 
+	border-top:outset 4px black;
+	text-align:right;
+	color:rgb(25,25,80);
+}

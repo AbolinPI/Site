@@ -1,0 +1,13 @@
+.multi-article
+{
+	display:flex;
+}
+.multi-article .article
+{
+	width:100%;
+}
+.multi-article .article h2
+{
+	text-align:center;
+	font-size:1.25rem;
+}

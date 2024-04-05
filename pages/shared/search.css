@@ -1,0 +1,32 @@
+.search-line
+{
+	padding:1rem;
+	display:flex;
+	justify-content:right;
+}
+
+#search-list
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+#search-list a
+{
+	text-decoration:none;
+	font:inherit;
+	color:black;
+
+	padding:0.5rem;
+	margin:0.2rem;
+	background: radial-gradient(circle, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);
+	border:2px rgba(255,255,255,0.3) solid;
+	transition: 0.1s;
+}
+
+#search-list a:hover
+{
+	transform:scale(1.2);
+	transition:0.1s;
+	margin:0.2rem 1rem;
+}
